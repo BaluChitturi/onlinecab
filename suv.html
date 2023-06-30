@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>SUV</title> 
+    <link rel="stylesheet" href="f.css">
+</head>
+<body background="images/suvback.jpg" align="center" style="font-family: 'Courier New', Courier, monospace;"> 
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About</a> 
+      </div> 
+    <h2>Welcome to koala cab booking:</h2>
+    <p>selected type SUV</p>   
+    <div>
+        <img src="images/suv2.jpg" alt="not found" align ="left" width="600" height="500">
+        <form>   
+        <table align="center" cellpadding="10" cellspacing="10">  
+            <tr>
+                <td>
+                    <label for="from" spacing="10">From:</label> 
+                    <input type="text"id="from">
+                </td> 
+                <td>
+                    <label for="to">To:</label> 
+                    <input type="text" id="to"> 
+                </td>
+            </tr> 
+            </tr>
+            <tr>
+            <td>
+            <label for="name">Name</label> 
+            <input type="text" id="name"name="name" size="15"><br> 
+            </td>
+            </tr> 
+            <tr>
+                <td>
+                    <label for="Mail">E-Mail</label>
+                    <input type="text" id="Mail"size=15px><br> 
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    <label for="no.">Phn-Number</label> 
+                    <input type="number" id="no." size="15"><br> 
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    <label for="date">Booking Date</label> 
+                    <input type="date" id="date"><br> 
+                </td>
+            </tr>  
+            <tr>
+                <td>
+                    <label for="time">Pick up Time</label> 
+                    <input type="time" id="time"><br>
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    <label for="pickuploc">Pick up location</label> 
+                    <input type="pickuploc" id="pickuploc"><br> 
+                </td>
+            </tr>
+            <label align="center">PRICE PER EVERY KM = 35/-</label>
+        </table>  
+        <button class="sbtn" type="reset" onclick="alert('submitted sucessfully...!')">SUBMIT</button>
+        </div> 
+      </form>
+    </body>

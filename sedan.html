@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        SEDAN
+    </title> 
+    <link rel="stylesheet" href="f.css">
+</head> 
+<body align="center"size="15px" background="images/sedback.jpg" style="font-family: 'Courier New', Courier, monospace;">
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About</a> 
+      </div>    
+    <h2>Welcome to koala cab booking:</h2>
+    <p>selected type SEDAN</p>
+    <div>
+    <img src="images/sedan.jpg" alt="not found" align ="left" width="700" height="500">
+    <form>   
+    <table align="center" cellpadding="10">  
+        <tr>
+            <td>
+                <label for="from" spacing="10">From:</label> 
+                <input type="text"id="from">
+            </td> 
+            <td>
+                <label for="to">To:</label> 
+                <input type="text" id="to" required> 
+            </td>
+        </tr> 
+        </tr>
+        <tr>
+        <td>
+        <label for="name">Name</label> 
+        <input type="text" id="name"name="name" size="15" required><br> 
+        </td>
+        </tr> 
+        <tr>
+            <td>
+                <label for="Mail">E-Mail</label>
+                <input type="text" id="Mail"size=15px required><br> 
+            </td>
+        </tr> 
+        <tr>
+            <td>
+                <label for="no.">Phn-Number</label> 
+                <input type="number" id="no." size="15" required><br> 
+            </td>
+        </tr> 
+        <tr>
+            <td>
+                <label for="date">Booking Date</label> 
+                <input type="date" id="date" required><br> 
+            </td>
+        </tr>  
+        <tr>
+            <td>
+                <label for="time">Pick up Time</label> 
+                <input type="time" id="time" required><br>
+            </td>
+        </tr> 
+        <tr>
+            <td>
+                <label for="pickuploc">Pick up location</label> 
+                <input type="pickuploc" id="pickuploc" required><br> 
+            </td>
+        </tr>
+        <label>PRICE PER EVERY KM = 35/-</label>
+    </table>  
+    <button class="sbtn" type="reset" onclick="alert('submitted sucessfully...!')">SUBMIT</button>
+    </div> 
+  </form>
+</body>
